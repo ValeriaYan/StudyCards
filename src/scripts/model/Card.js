@@ -5,11 +5,11 @@ export default class Card {
         this.percentage = 0;
     }
 
-    setQuestions(question) {
+    setQuestion(question) {
         this.question = question;
     }
 
-    getQuestions() {
+    getQuestion() {
         return this.question;
     }
 
