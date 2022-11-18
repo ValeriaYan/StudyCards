@@ -4,10 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="wrapper">
+        <main class="main-screen">
+            <div class="desks">
+                <div class="desks__wrap">
+                </div>
+                <div class="desks__btn btn">Add</div>
+                <div class="desks__create-desk create-desk">
+                    <input type="text" class="create-desk__input" value="" placeholder="Input name desk">
+                    <div class="create-desk__buttons">
+                        <div class="create-desk__cancel">Cancel</div>
+                        <div class="create-desk__ok">OK</div>
+                    </div>
+                </div>
+            </div>
+            <div class="cards"></div>
+            <div class="create-card"></div>
+            <div class="edit-card"></div>
+            <div class="card"></div>
+            <div class="study-card"></div>
+            <div class="card-answer"></div>
+        </main>
+    </div>
+
     <script type="module" src="./scripts/App.js"></script>
 </body>
 </html>
