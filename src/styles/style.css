@@ -1,0 +1,67 @@
+.wrapper {
+    padding: 40px 0;
+}
+
+.main-screen {
+    position: relative;
+    max-width: 60vh;
+    height: 80vh;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.btn {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+.create-desk {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.create-desk._active {
+    display: block;
+}
+
+.create-desk__buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.desk {
+    padding: 10px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.desk__options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+.create-desk__ok,
+.create-desk__cancel {
+    cursor: pointer;
+}
